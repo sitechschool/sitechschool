@@ -1,0 +1,138 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+  }
+button{
+    background: rgba(0, 140, 255, 0.877);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px 6px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover{
+    background: rgb(5, 159, 230);
+    padding: 8px 22px 8px 22px;
+}
+
+.container{
+    width: 70%;
+    margin:0px auto;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.coutenue{
+    width: 100%;
+    padding: 0px;
+}
+
+
+.header{
+    background-color: rgb(1, 1, 37);
+    /*background: url('/images/back1.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+   
+}
+
+.header h1{
+    color: white;
+    font-size: 36px;
+    font-family: Arial black, Helvetica, sans-serif;
+}
+
+.header h2{
+    font-size: 28px;
+    color: white;
+}
+
+.header p{
+    font-size: 20px;
+    color: white;
+}
+.header ul{
+    padding: 10px 40px 10px 5px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.header ul li{
+    margin: 2px 20px 2px 20px;
+    color: white;
+}
+.header ul h3{
+    margin: 3px;
+    color: orangered;
+}
+.header .img{
+  width: 50%;  
+}
+
+.header .text{
+    width: 100%;
+    margin: 40px;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+}
+.header .text button a{
+    color: white;
+}
+
+.section hr{
+    width: 50%;
+}
+
+.section h1{
+    text-align: center;
+    color: rgb(1, 1, 37);
+    text-transform: uppercase;
+}
+.section .items{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 70px 10px 70px;
+}
+
+.section .items .item{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 5px;
+    padding: 4px;
+
+}
+
+.section .items .item h3{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section .items .item1R, .item3R, .item3R{
+    width: 100%;
+    display: none;
+}
+aside{
+    display: none;
+    width: 25%;
+    height: 360px;
+    background: black;
+}
